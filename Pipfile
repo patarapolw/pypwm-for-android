@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+bottle = "*"
+pypwm = {git = "https://github.com/patarapolw/pypwm.git", editable = true}
+cython = "==0.26.1"
+"d4a76af" = {file = "https://github.com/kivy/kivy/archive/master.zip"}
+memorable_password = {git = "https://github.com/patarapolw/memorable-password.git"}
+"jinja2" = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"

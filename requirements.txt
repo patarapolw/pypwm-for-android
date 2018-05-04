@@ -1,0 +1,6 @@
+pypwm
+memorable_password
+bottle
+jinja2
+cython==0.25.2
+kivy

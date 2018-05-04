@@ -1,0 +1,110 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "ce6a1b9311c10234a7273ed62162c2bf8195c26699cb6799e7342433fce6864c"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.6"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "bottle": {
+            "hashes": [
+                "sha256:39b751aee0b167be8dffb63ca81b735bbf1dd0905b3bc42761efedee8f123355"
+            ],
+            "index": "pypi",
+            "version": "==0.12.13"
+        },
+        "cython": {
+            "hashes": [
+                "sha256:1a4e373da9c1a20b48b0f542fdd01b79841f51297075df9c6049c20203409d81",
+                "sha256:1fdb73fda01469bfe0c26f79ef62348888ea11bce9b92c187b58a7f9a30a9e2f",
+                "sha256:31d155b4e4902644bd2867c624b1cd3e11545b213f84a1d028f0df14a3b22612",
+                "sha256:396a1c5ecc4210dd41b6521cd8398e7955784982b5a369695ae21176db31bdf7",
+                "sha256:3f683f22c0221b4d65e6a1738f4e8c17a0719d6e82a86b0897c74fa0d24fef78",
+                "sha256:3fc982053c4a780c98448882c02a9b7ef85be6308b714e5b78be72e67b748fee",
+                "sha256:4c11f0b79abac9779c24c0fbeeac21389766ffa60db54caa043292091091d2b4",
+                "sha256:50f4e33b164bceb821d1c4375d7668ad17aeac7a78ec245a861386d5ce0a0563",
+                "sha256:54b73ff7a5c59d8455655e97c412b9e7b6b4f484c33a21fd66f463fc16d8d700",
+                "sha256:5dbf22d73cca80bab3e82f0bb7579ec07fcab9baed728e374ea454c423f3c9a3",
+                "sha256:64961a6003bd236988d063d76754bd47565a4fdf26e0699e89282682179211e6",
+                "sha256:64ec98d442ab2b56a1e743a7c524c4456c78757245c53cd102dd4f60b6981cf1",
+                "sha256:6b20e1aa533be34c333aa67c37dcb8fa5281e80f155f7d44ed8e86fb6283d368",
+                "sha256:710c4b312a2c752101e34d6875f9a5ab24956d41016430e8cb453de7137be464",
+                "sha256:71e47fbe29e78e7bb2d998f90d9051442c33560549a61777f5696b3ee18729d4",
+                "sha256:738d510499c2d92b307d26ad6bc5794bbed21105679124b78f92f05c6d58776f",
+                "sha256:7c2f3fb93d5cfe57d6b965c5cb29083e122af528efbb27e00c2a3a59c6fd4ddd",
+                "sha256:7ff8250b1cc70e35d878cacffaea9ea875125f8c71f856ec93307e8dd5f8d059",
+                "sha256:941e836335d97226ca98cd613d2a8db65e7fdfeec0707b6bf8fc7f923a360903",
+                "sha256:98262ce1805a0330d755006d3d72c203279f84881ce08eecf2b6fd9b5b66e9cd",
+                "sha256:9a60e6e283bddf3d2cf674d896c457e9ee3cf2eeb679a9392c57e93da658067f",
+                "sha256:a9e2cbfdeb6e4eeb3f95e2dcc92d71cbb36cf042b987b6810e3e759869085410",
+                "sha256:b6fdf64c756bc42eca4f42cd3b81a3b746126868edf34c6e10f6fcf6b7717338",
+                "sha256:bacce121c7d30801f72ef0268a265e6506f11690056bdd14fd41b6b6204d8db3",
+                "sha256:c0dcca01098684d4356604077ef644c046643bb766ee237cad88ae4e82921445",
+                "sha256:c2e63c4794161135adafa8aa4a855d6068073f421c83ffacc39369497a189dd5",
+                "sha256:c7df43ee3fade5471a5a990d90b4c44a3b964e63b101759ccf6a06c049d6b2a4",
+                "sha256:d07db732baa5fa5ca9383b272b50905e65665e1b4ea28426708f847bb41eeab2",
+                "sha256:d91e105fef5a622d776380c4e49a2c5e28d6be631d384756b67d561c09692eb1",
+                "sha256:ebb35f14ac61779465b1c97515bd1a7886fa795780bc35eb354b192a32896768",
+                "sha256:ef5e49ed50c856e31d134164a05bfc9ea2f65d2d40ed65dd1dfd455a93b73d40",
+                "sha256:f11e9445830125000a353a9e49ff3d1b6f0f43affe2925222c8790ca03a19483",
+                "sha256:fbb7d093d541f4ccccdff33897d87e85503be5c5ebe05f25fe6a6648238f507a",
+                "sha256:fedfa9211e4abfd75022e1b9124e395374f88c88442523de8c2ede117711ffe3"
+            ],
+            "index": "pypi",
+            "version": "==0.26.1"
+        },
+        "d4a76af": {
+            "file": "https://github.com/kivy/kivy/archive/master.zip"
+        },
+        "memorable-password": {
+            "git": "https://github.com/patarapolw/memorable-password.git"
+        },
+        "pycryptodome": {
+            "hashes": [
+                "sha256:043c82cd3dd3120286a1b325ace93000cf52abb13a067c3ecb6220f874fe4c30",
+                "sha256:0cdd73492859d853f60b8185715312dbca465879661e28d354d1cf5ea11860e7",
+                "sha256:15013007e393d0cc0e69f4329a47c4c8597b7f3d02c12c03f805405542f70c71",
+                "sha256:19d81b92bff837cdade735b9023808556bb4868e1ce194dad4d5ec4e2b2851f3",
+                "sha256:1ceb3e87605c4f0080115a8a00abf45f5df27b0166a37fd669fbff4523273cfc",
+                "sha256:2354a77051ed4a2959ce2aac508071eb3e42fc348ea39228b2eac335990bf508",
+                "sha256:27bd2878200690b050dca34f505b5c623532324b3de40267c1484784063134df",
+                "sha256:322f239e51fda80233762400a8975ab728639b571fa58545b95b9c44042af010",
+                "sha256:49a71eb990af30ff6276cfe201eb83ed3640ae989c1b5973f7b55a46c94232d1",
+                "sha256:4b5a2680008da3ac0cef2d3661597e0cbf8a3eb19eed35b859fd67e2de63eb85",
+                "sha256:6d34fe5134eb5d62368e21e6f203ac1770bc7273e9536c4a280121312c2de53a",
+                "sha256:733d5eb7e5ceed8b9d0b3c24c81f52c04cb5de6786461388204fceefe4456aa5",
+                "sha256:7c73d3798fe2946953768b788ce554c0d4b390780f5e73d63bd833241af27bfe",
+                "sha256:97af76f5200f15e97cac58d77f319dec40b4bada98de697c91a9517e63b41d1a",
+                "sha256:97cc46ff02b99dafdc2e0385b325cec0f8a15bf8b285d6ed1d7e4a3bc2067ce1",
+                "sha256:a561b59e0c3548eb649af381b7c38c6fd8392bbd4d0a8214794b2b761f405af4",
+                "sha256:ab2c633bfc23cf41be9281228517cb6f87879f4f1aeb154ed72bd53ab7cc83e9",
+                "sha256:adb54316998337f315520bbd8ef4d8bbd940b4ddfaef8ba1db3c137c5e499399",
+                "sha256:b4a3b710287eb1fc3e2cc1af018063f003530dff00c9ea4c55ae19bc1f3923cc",
+                "sha256:bcfdb66d6604882c3f96eea922552c2487cc0aec4b883cd217b9d341d2f8fad0",
+                "sha256:c08c053eb8716bbbd5e13e38f453b9e46a063e68df8659f3c421dcb7519fd381",
+                "sha256:e51da4ef9d9e2695a04044152f380c2db17adc9fc6fad8e24d863ead9cd548ed",
+                "sha256:e850e07f54dc3de9a1efdd59d227fcd1cb30cdd307dafdc647c79e8f30cf5032",
+                "sha256:ebc579c41fe26748dc1bad4f9105f08740ee28826293a28103b3875968695a5e",
+                "sha256:ed94cb1b4bf24be734f2bf2db3e8ea75f3914d2f8e684291bee54bbe4a5a9151",
+                "sha256:f5e19802295e63bdf83bb92849285c01f7167840efb1c1e08507a50b10ba7efa",
+                "sha256:fc569682f012b1f62f8d28d8f9bc71f1de67648cd1bc124ef8ccf8db4edfc28a"
+            ],
+            "version": "==3.6.1"
+        },
+        "pypwm": {
+            "editable": true,
+            "git": "https://github.com/patarapolw/pypwm.git"
+        }
+    },
+    "develop": {}
+}
