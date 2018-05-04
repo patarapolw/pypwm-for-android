@@ -157,6 +157,18 @@ def saveOne():
     return '1'
 
 
+@app.post('/deleteOne')
+def deleteOne():
+    global vault
+    name = request.forms.get('name')
+    content = dict(vault)
+    content.pop(name)
+    vault.data = content
+    vault.save()
+
+    return '1'
+
+
 def render_tokens(tagged_tokens):
     def boldify(match_obj):
         to_consider = match_obj.group(0)

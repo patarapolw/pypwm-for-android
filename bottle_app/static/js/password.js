@@ -19,10 +19,7 @@ $(function(){
         if(event.keyCode == 13){
             $('.newKey').removeClass('lastKey');
             $('.newValue').removeClass('lastValue');
-            $('#newItems').append('<div class="row">' +
-                '<input type="text" placeholder="New key" class="newKey lastKey"/>' +
-                '<input type="text" class="newValue lastValue" disabled/>' +
-                '</div>');
+            $('#newItems').append('<div class="row mt-3"><div class="row"><input type="text" placeholder="New key" class="newKey lastKey form-control"/></div><div class="row"><input type="text" class="newValue lastValue form-control" disabled/></div>');
         }
     });
 
@@ -31,11 +28,12 @@ $(function(){
     })
 
     $('#reset').click(function(){
-        $('#newItems').html('<div class="row">' +
-            '<input type="text" placeholder="New key" class="newKey lastKey"/>' +
-            '<input type="text" class="newValue lastValue" disabled/>' +
-            '</div>');
+        $('#newItems').html('<div class="row mt-3"><div class="row"><input type="text" placeholder="New key" class="newKey lastKey form-control"/></div><div class="row"><input type="text" class="newValue lastValue form-control" disabled/></div>');
     })
+
+    $('#delete').click(function(){
+        $.post('/deleteOne', {name: $('#name').val()});
+    });
 
     $('#exit').click(function(event) {
         window.location.href = '/showcase';
