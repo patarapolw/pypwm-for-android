@@ -11,5 +11,5 @@ An extension of [memorable-password](https://github.com/patarapolw/memorable-pas
 ## Screenshots
 
 <img src="https://i.imgur.com/wihkwem.png">
-<img src="https://i.imgur.com/JNUD3Om.png">
+<img src="https://i.imgur.com/VdxsKnV.png">
 <img src="https://i.imgur.com/XgSKXMK.png">
