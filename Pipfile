@@ -12,6 +12,7 @@ memorable_password = {git = "https://github.com/patarapolw/memorable-password.gi
 "jinja2" = "*"
 
 [dev-packages]
+pytest = "*"
 
 [requires]
 python_version = "3.6"
