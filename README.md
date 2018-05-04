@@ -13,3 +13,7 @@ An extension of [memorable-password](https://github.com/patarapolw/memorable-pas
 <img src="https://i.imgur.com/wihkwem.png">
 <img src="https://i.imgur.com/VdxsKnV.png">
 <img src="https://i.imgur.com/XgSKXMK.png">
+
+<img src="https://i.imgur.com/9G087aWl.png">
+<img src="https://i.imgur.com/K3fhda6l.png">
+<img src="https://i.imgur.com/6GnmYCWl.png">

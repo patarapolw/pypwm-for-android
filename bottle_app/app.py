@@ -78,7 +78,6 @@ def createVault():
         vault = Vault(request.forms.get('masterPassword'))
         return '1'
     except ValueError:
-        print('Wrong Password')
         return '0'
 
 
@@ -186,7 +185,8 @@ def render_tokens(tagged_tokens):
     return sentence
 
 
-server = MyWSGIRefServer(host="127.0.0.1", port="8080")
+server = MyWSGIRefServer(host="192.168.43.178", port="8080")
+# server = MyWSGIRefServer(host="127.0.0.1", port="8080")
 
 
 def main():
