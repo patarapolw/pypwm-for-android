@@ -1,8 +1,12 @@
 $(function(){
     $('#newPassword').click(function(event) {
         $.post('/newPassword', {'name': $('#name').val()}, function(data){
-            $('#password').val(data.password);
-            $('#note').text(data.note);
+            if(data !== '0'){
+                $('#password').val(data.password);
+                $('#note').text(data.note);
+            } else {
+                window.location.href = '/';
+            }
         })
     });
 

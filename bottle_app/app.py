@@ -142,7 +142,7 @@ def newPassword():
         }
         return content
     else:
-        return dict()
+        return '0'
 
 
 @app.post('/saveOne')
