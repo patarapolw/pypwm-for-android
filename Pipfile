@@ -8,7 +8,7 @@ bottle = "*"
 pypwm = {git = "https://github.com/patarapolw/pypwm.git", editable = true}
 cython = "==0.26.1"
 "d4a76af" = {file = "https://github.com/kivy/kivy/archive/master.zip"}
-memorable_password = {git = "https://github.com/patarapolw/memorable-password.git"}
+memorable_password = "*"
 "jinja2" = "*"
 
 [dev-packages]
